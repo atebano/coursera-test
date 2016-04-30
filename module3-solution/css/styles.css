@@ -52,3 +52,48 @@ li:hover {
 .mySection{
 	margin: 3%;
 }
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+	.mySection{
+		margin:3%;
+	}
+
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.mySection{
+		margin:3%;
+	}
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	  .mySection{
+		margin:10%;
+	}
+
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	  .mySection{
+		margin:10%;
+	}
+
+
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+	  .mySection{
+		margin:10%;
+	}
+
+}
